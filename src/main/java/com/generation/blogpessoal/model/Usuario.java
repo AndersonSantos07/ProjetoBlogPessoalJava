@@ -32,6 +32,16 @@ public class Usuario {
     @Size(max=4000,message = "O link da foto inserida não pode passar dos 4000 caracteres")
     private String foto;
 
+    public Usuario(Long id, String nome, String usuario, String senha, String foto) {
+        this.id = id;
+        this.nome = nome;
+        this.usuario = usuario;
+        this.senha = senha;
+        this.foto = foto;
+    }
+
+    public Usuario() {	}
+
     @OneToMany(fetch = FetchType.LAZY,mappedBy = "usuario",cascade = CascadeType.REMOVE)
     @JsonIgnoreProperties("usuario")
     private List<Postagem> postagem;
