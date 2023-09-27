@@ -1,6 +1,3 @@
-
-
-```markdown
 # Projeto Blog Pessoal em Java
 
 Bem-vindo ao repositório do Projeto Blog Pessoal em Java! Este é um projeto de API de blog construído com a linguagem Java e o framework Spring Boot. Aqui, os usuários podem criar suas postagens e interagir com o sistema de forma segura e eficiente.
@@ -67,6 +64,3 @@ Este projeto é licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICE
 Divirta-se explorando e usando o Projeto Blog Pessoal em Java! Se tiver alguma dúvida ou precisar de assistência, não hesite em entrar em contato.
 
 [Repositório GitHub](https://github.com/AndersonSantos07/ProjetoBlogPessoalJava)
-```
-
-Certifique-se de que este arquivo esteja na raiz do seu repositório GitHub, e ele proporcionará uma introdução clara e informativa ao seu projeto para os usuários que visitarem o repositório. Não se esqueça de manter o arquivo atualizado à medida que o projeto evolui e novos recursos são adicionados.
